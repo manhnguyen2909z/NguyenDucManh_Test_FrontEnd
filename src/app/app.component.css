@@ -1,72 +1,72 @@
-.page{
-    display: flex;
-gap: 129PX;
-   
+.page {
+  display: flex;
+  gap: 129px;
+  width: 95%;
+  
 }
-.menu{
-    position: relative;
-    width: 150px;
-    height: 935px;
-    background-color: black;
-    color:  white;
-    float: left;
-    
+.menu {
+  /* position: relative; */
+  width: 150px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  float: left;
 }
-.nav li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    width: 150px;
-    height: 44px;
-    border: 1px solid #5C5C5C
+.nav li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 150px;
+  height: 44px;
+  border: 1px solid #5c5c5c;
 }
-.menu li:hover{
-    background-color:  #5C5C5C;
-    
+.menu li:hover {
+  background-color: #5c5c5c;
 }
-.body{
-   
+
+.logo {
+  padding-top: 8px;
+  text-align: center;
+  margin-bottom: 30px;
 }
-.logo{
-    text-align: center;
-    margin-bottom: 30px;
+.content {
+  background: #efefef;
+  height: 210px;
+  width: 100%;
+
+  border-radius: 0px;
+  text-align: center;
+  padding-top: 38px;
+  margin-bottom: 40px;
 }
-.content{
-background: #EFEFEF;
-height: 210px;
-width: 1510px;
-left: 279px;
-top: 1110px;
-border-radius: 0px;
-text-align: center;
-padding-top: 38px;
-margin-bottom: 40px;
+.main_content {
+  margin-top: 18px;
 }
-.main_content{
-    margin-top: 18px;
+.item {
+  display: flex;
+  margin-top: 8px;
 }
-.item{
-    display: flex;
-    margin-top: 8px;
-   
+.list {
+  display: flex;
+  gap: 50px;
 }
-.list{
-    width: 1510px;
-    display: flex;
-    gap: 50px
+.footer {
+  border: 1px solid #dedede;
+  height: 79px;
+  width: 100%;
+  border-radius: 0px;
+  position: absolute;
+  left: 150px;
+  bottom: -20px;
 }
-.footer{    
-border: 1px solid #DEDEDE;
-height: 79px;
-width: 1768px;
-border-radius: 0px;
-position: absolute;
-left: 158px;
-bottom: 0px;
+.footer .Copyright {
+  margin-left: 125px;
+  margin-top: 30px;
 }
-.footer .Copyright{
-    margin-left: 129px;
-   margin-top: 30px;
+
+.body {
+  display: flex;
+  flex-direction: column;
 }
